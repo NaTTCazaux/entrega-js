@@ -17,23 +17,23 @@
     display: block;
 }
 
-h5{
+h5 {
     font-family: "Rubik", sans-serif;
     font-size: 1.2em;
     font-weight: bold;
 }
 
-p{
+p {
     font-family: "Rubik", sans-serif;
     font-size: 0.95em;
 }
 
-.botones{
+.botones {
     font-family: "Rubik", sans-serif;
     font-size: 0.95em;
 }
 
-.card-title{
+.card-title {
     font-family: "Rubik", sans-serif;
     font-size: 1.2em;
 }
@@ -52,7 +52,7 @@ p{
         border-radius: 50px;
     }
 
-    #sectionContacto{
+    #sectionContacto {
         display: none;
 
     }
@@ -69,72 +69,72 @@ p{
         align-items: stretch;
         justify-items: center;
         justify-content: space-around;
-    
+
     }
-    
-        .footerLogo {
-            grid-area: footerLogo;
-            width: 50%;
-            margin-top: 50px;
-        }
-        
-        .footerRedes {
-            grid-area: footerRedes;
-            width: 50%;
-            margin-top: 70px;
-        }
-        
-        .footerDireccion{
-            grid-area: footerDireccion;
-            width: 50%;
-            margin-top: 50px;
-        }
 
-        .footerHorario{
-            grid-area: footerHorario;
-            width: 50%;
-            margin-top: 50px;
-        }
-
-        .iconos-redes {
-            width: 29%;
-         }
-
-
-
-/*  TABLA DE COMPRAS */
-
-
-        .table{
-            background-color: #e3ddd53d;
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            margin-top: 80px;
-            right: 0;
-        }
-
-        .text-right{
-            font-size: 1.1rem;
-        }
-        
-        .table .imagenCuadros{
-            width: 30%;
-
-        }
-
-        .table .container{
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .procesarCompra{
-            position: absolute;
-            margin-top: 100%;
-            right: 0;
-        }
+    .footerLogo {
+        grid-area: footerLogo;
+        width: 50%;
+        margin-top: 50px;
     }
+
+    .footerRedes {
+        grid-area: footerRedes;
+        width: 50%;
+        margin-top: 70px;
+    }
+
+    .footerDireccion {
+        grid-area: footerDireccion;
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .footerHorario {
+        grid-area: footerHorario;
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .iconos-redes {
+        width: 29%;
+    }
+
+
+
+    /*  TABLA DE COMPRAS */
+
+
+    .table {
+        background-color: #e3ddd53d;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin-top: 80px;
+        right: 0;
+    }
+
+    .text-right {
+        font-size: 1.1rem;
+    }
+
+    .table .imagenCuadros {
+        width: 30%;
+
+    }
+
+    .table .container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .procesarCompra {
+        position: absolute;
+        margin-top: 100%;
+        right: 0;
+    }
+}
 
 
 
@@ -163,56 +163,56 @@ p{
         align-items: stretch;
         justify-items: center;
         justify-content: space-around;
-    
-    }
-    
-        .footerLogo {
-            grid-area: footerLogo;
-            width: 50%;
-            margin-top: 50px;
-        }
-        
-        .footerRedes {
-            grid-area: footerRedes;
-            margin-top: 50px;
-            margin-left: -40px;
-        }
-        
-        .footerDireccion{
-            grid-area: footerDireccion;
-            margin-top: 50px;
-        }
 
-        .footerHorario{
-            grid-area: footerHorario;
+    }
+
+    .footerLogo {
+        grid-area: footerLogo;
+        width: 50%;
         margin-top: 50px;
-        }
-
-        .iconos-redes {
-            width: 50px;
-        }
-
-        .procesarCompra{
-            position: absolute;
-            margin-top: 330px;
-            right: 0;
-        }
-
-
-
-
-
-
-        /* TABLA DE COMPRA */
-
-        .table{
-            margin-top: 50px;
-        }
-
-
-        .table .imagenCuadros{
-            width: 20%;
-
-        }
-    
     }
+
+    .footerRedes {
+        grid-area: footerRedes;
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+
+    .footerDireccion {
+        grid-area: footerDireccion;
+        margin-top: 50px;
+    }
+
+    .footerHorario {
+        grid-area: footerHorario;
+        margin-top: 50px;
+    }
+
+    .iconos-redes {
+        width: 50px;
+    }
+
+    .procesarCompra {
+        position: absolute;
+        margin-top: 330px;
+        right: 0;
+    }
+
+
+
+
+
+
+    /* TABLA DE COMPRA */
+
+    .table {
+        margin-top: 50px;
+    }
+
+
+    .table .imagenCuadros {
+        width: 20%;
+
+    }
+
+}

@@ -1,6 +1,3 @@
-
-
-
 //CARRITO
 
 class carrito {
@@ -159,19 +156,6 @@ class carrito {
         }
 
         localStorage.setItem('elementos', JSON.stringify(elementos));
-
-
-        /* elementoLS.forEach(
-
-            function (index, elementoLS ) {
-
-                if (elementoLS.id === elementoID) {
-
-                    elementoLS.splice(index, 1);
-                }
-
-            });
- */
     }
 
 
