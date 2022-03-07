@@ -1,0 +1,218 @@
+.logo {
+    width: 80px;
+    border-radius: 50px;
+}
+
+.footerRedes a {
+    text-decoration: none;
+}
+
+#cargando {
+    display: none;
+    width: 150px;
+}
+
+#gif-enviado {
+    width: 150px;
+    display: block;
+}
+
+h5{
+    font-family: "Rubik", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+p{
+    font-family: "Rubik", sans-serif;
+    font-size: 0.95em;
+}
+
+.botones{
+    font-family: "Rubik", sans-serif;
+    font-size: 0.95em;
+}
+
+.card-title{
+    font-family: "Rubik", sans-serif;
+    font-size: 1.2em;
+}
+
+.tituloCuadros {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.8em;
+}
+
+
+
+@media (max-width:576px) {
+
+    .logoFooter {
+        width: 70px;
+        border-radius: 50px;
+    }
+
+    #sectionContacto{
+        display: none;
+
+    }
+
+
+    footer {
+        background-color: #e3ddd53d;
+        max-width: 100%;
+        display: grid;
+        grid-template-areas:
+            "footerLogo footerRedes"
+            "footerDireccion footerHorario";
+        margin-top: 50px;
+        align-items: stretch;
+        justify-items: center;
+        justify-content: space-around;
+    
+    }
+    
+        .footerLogo {
+            grid-area: footerLogo;
+            width: 50%;
+            margin-top: 50px;
+        }
+        
+        .footerRedes {
+            grid-area: footerRedes;
+            width: 50%;
+            margin-top: 70px;
+        }
+        
+        .footerDireccion{
+            grid-area: footerDireccion;
+            width: 50%;
+            margin-top: 50px;
+        }
+
+        .footerHorario{
+            grid-area: footerHorario;
+            width: 50%;
+            margin-top: 50px;
+        }
+
+        .iconos-redes {
+            width: 29%;
+         }
+
+
+
+/*  TABLA DE COMPRAS */
+
+
+        .table{
+            background-color: #e3ddd53d;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            margin-top: 80px;
+            right: 0;
+        }
+
+        .text-right{
+            font-size: 1.1rem;
+        }
+        
+        .table .imagenCuadros{
+            width: 30%;
+
+        }
+
+        .table .container{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .procesarCompra{
+            position: absolute;
+            margin-top: 100%;
+            right: 0;
+        }
+    }
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) {
+
+    .logoFooter {
+        width: 70px;
+        border-radius: 50px;
+        margin-left: -40px;
+    }
+
+    footer {
+        background-color: #e3ddd53d;
+        max-width: 100%;
+        display: grid;
+        grid-template-areas:
+            "footerLogo footerRedes"
+            "footerDireccion footerHorario";
+        margin-top: 50px;
+        align-items: stretch;
+        justify-items: center;
+        justify-content: space-around;
+    
+    }
+    
+        .footerLogo {
+            grid-area: footerLogo;
+            width: 50%;
+            margin-top: 50px;
+        }
+        
+        .footerRedes {
+            grid-area: footerRedes;
+            margin-top: 50px;
+            margin-left: -40px;
+        }
+        
+        .footerDireccion{
+            grid-area: footerDireccion;
+            margin-top: 50px;
+        }
+
+        .footerHorario{
+            grid-area: footerHorario;
+        margin-top: 50px;
+        }
+
+        .iconos-redes {
+            width: 50px;
+        }
+
+        .procesarCompra{
+            position: absolute;
+            margin-top: 330px;
+            right: 0;
+        }
+
+
+
+
+
+
+        /* TABLA DE COMPRA */
+
+        .table{
+            margin-top: 50px;
+        }
+
+
+        .table .imagenCuadros{
+            width: 20%;
+
+        }
+    
+    }
